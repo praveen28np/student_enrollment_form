@@ -1,0 +1,78 @@
+h1{
+    text-align: center;
+}
+
+#containerIn{
+    height: 400px;
+    width: 40%;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #000000;
+    float: left;
+}
+
+#containerOut{
+    height: 400px;
+    width: 30%;
+    padding: 10px;
+    margin-right: 10%;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #000000;
+    float: right;
+    overflow-y: scroll;
+}
+
+.divIn{
+    width: 400px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.labels{
+    float: left;
+}
+
+.in{
+    margin-left: 20px;
+    width: 60%;
+}
+
+.inrad{
+    margin-left: 20px;
+}
+
+.inchk{
+    margin-left: 20px;
+}
+
+.btns{
+    height: 30px;
+    width: 80px;
+    margin-top: 30px;
+    margin-left: 50px;
+    background-color: #E5E5E5;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+#btnSubmit:hover{
+    color: #E5E5E5;
+    background-color: green;
+}
+
+#btnReset:hover{
+    color: #E5E5E5;
+    background-color: red;
+}
+
+.name{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.others{
+    font-size: 20px;
+}
